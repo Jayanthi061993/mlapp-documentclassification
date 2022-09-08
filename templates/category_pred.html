@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document Classification</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+   <body>
+       <h3>Document Classification - Input Document Prediction</h3>
+<div>
+      <form action = "http://localhost:5000/result" method = "POST">
+         <p>Please Enter the document Content <input type = "text" name = "Data" placeholder="Content" required="required" /></p>
+         
+         <p><input type = "submit" value = "submit" /></p>
+      </form>
+<div>
+   </body>
+</html>
