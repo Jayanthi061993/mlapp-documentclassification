@@ -1,7 +1,0 @@
-Flask==2.1.2
-gunicorn
-pandas
-scikit-learn
-numpy
-pickle4
-sklearn
