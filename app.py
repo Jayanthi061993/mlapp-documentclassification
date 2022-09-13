@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pickle
 
-app = Flask(__name__,template_folder = r"D:\JAAM_PROJECTS\Document Classification Project POC Deployment") 
+app = Flask(__name__,template_folder = r"ml-deploy-documentclassification/") 
                                                                                
     
 clf = pickle.load(open('model.pkl','rb'))
