@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pickle
 
-app = Flask(__name__,template_folder = r"Jayanthi061993/mlapp-documentclassification/") 
+app = Flask(__name__,template_folder = r"/") 
                                                                                
     
 clf = pickle.load(open('model.pkl','rb'))
